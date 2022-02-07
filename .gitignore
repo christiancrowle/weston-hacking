@@ -1,0 +1,9 @@
+*.mp4
+*.wcap
+client/client
+shard.lock
+*.ppm
+*.data
+*.png
+vods/
+notes/

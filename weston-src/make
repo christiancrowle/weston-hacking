@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ninja -C build/
+sudo ninja -C build/ install
+sudo chmod u+s /usr/bin/weston-launch

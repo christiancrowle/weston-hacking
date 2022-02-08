@@ -7,7 +7,8 @@ The `weston-src/` directory contains a version of Weston that has been
 modified (the quick and dirty way :P) to output its WCAP data over a TCP 
 socket. `client/` contains a simple in-progress client written in Crystal
 to connect to that socket (with no video output right now, since I got 
-distracted...)
+distracted...) `client-neo/` contains a c# version of the crystal code, 
+soon to have an imgui frontend.
 
 ### References
 [WCAP format](https://cgit.freedesktop.org/wayland/weston/tree/wcap/README)
